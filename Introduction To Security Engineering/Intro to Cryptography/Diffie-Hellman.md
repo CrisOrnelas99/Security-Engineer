@@ -44,6 +44,16 @@
 
 ---
 
+- <img width="766" height="651" alt="image" src="https://github.com/user-attachments/assets/294992b0-d1cd-48e1-ba46-35f067ccf041" />
+- <img width="1266" height="632" alt="image" src="https://github.com/user-attachments/assets/47a1c926-fbd8-4e2c-bcdb-61de9bb5f1b2" />
+-
+- <img width="720" height="310" alt="image" src="https://github.com/user-attachments/assets/c6a0471a-e054-4063-97f5-0d3e9413703f" />
+- <img width="940" height="284" alt="image" src="https://github.com/user-attachments/assets/701cfd7a-e183-4d31-a24f-afe40d4548eb" />
+
+
+
+
+
 ## 🖥️ OpenSSL Diffie-Hellman Commands
 
 Generate DH parameters (2048-bit):
