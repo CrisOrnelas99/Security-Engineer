@@ -194,17 +194,21 @@ Number of keys required for symmetric communication grows quickly:
 - 3 users → 3 keys
 - 100 users → 4950 keys
 
-Formula:
 
 
 <img width="1006" height="391" alt="image" src="https://github.com/user-attachments/assets/902d8421-a011-415e-8b86-2105b223916f" />
 <img width="1279" height="207" alt="image" src="https://github.com/user-attachments/assets/dcc823a2-c758-4c8d-9330-6a0543cc0298" />
 
-<img width="1298" height="315" alt="image" src="https://github.com/user-attachments/assets/788ac6cf-acc4-493e-950b-ec2fc06b1baa" />
-<img width="690" height="374" alt="image" src="https://github.com/user-attachments/assets/de51485d-2c22-412f-ab94-bfc5269db5c4" />
 
-<img width="1281" height="235" alt="image" src="https://github.com/user-attachments/assets/7e80710d-0da0-4f2d-9bf1-d977dcbca4eb" />
+
+<img width="690" height="374" alt="image" src="https://github.com/user-attachments/assets/de51485d-2c22-412f-ab94-bfc5269db5c4" />
+<img width="1298" height="315" alt="image" src="https://github.com/user-attachments/assets/788ac6cf-acc4-493e-950b-ec2fc06b1baa" />
+
+
+
 <img width="666" height="380" alt="image" src="https://github.com/user-attachments/assets/1a333420-034a-4625-8a5b-96ab7c1c4be1" />
+<img width="1281" height="235" alt="image" src="https://github.com/user-attachments/assets/7e80710d-0da0-4f2d-9bf1-d977dcbca4eb" />
+
 
 
 
