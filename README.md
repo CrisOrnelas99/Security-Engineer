@@ -1,5 +1,4 @@
 # Security-Engineer
-Write ups
 Security Engineers are critical to every organization’s security. Being a Security Engineer means designing secure systems, networks, and software, understanding threats and risks that can affect the organization, and being able to assist in responding to incidents. This path aims to give you an introduction to security engineering from various perspectives. No matter which speciality you choose as your cyber security career, understanding all elements is going to help you proactively identify and mitigate security risks, and play a crucial role in strengthening your company’s security posture. This path includes:
 
     Introductory topics, such as discussing career journeys available to Security Engineers and security fundamentals required to be successful in this role
