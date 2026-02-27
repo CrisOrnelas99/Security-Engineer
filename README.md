@@ -1,5 +1,8 @@
 # 🛡️ TryHackMe Path – Security Engineer
 
+<img width="111" height="111" alt="image" src="https://github.com/user-attachments/assets/391bf532-9335-4fcc-807a-720df7fa06e7" />
+
+
 ## 📌 Overview
 The **Security Engineer Path** introduces the core responsibilities and skillsets required to design, secure, and defend organizational systems. It provides foundational knowledge across network, system, and software security while developing risk analysis and incident response capabilities.
 
