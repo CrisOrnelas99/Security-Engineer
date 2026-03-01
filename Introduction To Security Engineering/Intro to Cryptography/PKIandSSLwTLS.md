@@ -1,4 +1,4 @@
-# 🔐 What I Learned — MITM Risk, PKI, and Certificates
+#  What I Learned — MITM Risk, PKI, and Certificates
 
 - Diffie-Hellman lets Alice and Bob agree on a **shared secret key** even if eavesdroppers can read the traffic.
 - Diffie-Hellman alone is vulnerable to a **Man-in-the-Middle (MITM)** attack because:
