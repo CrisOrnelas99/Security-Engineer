@@ -1,21 +1,11 @@
-# 🛡️ TryHackMe Room – Introduction to Security Engineering
+#  What I learned – Introduction to Security Engineering
 
-## 📌 Overview
+## Overview
 This room introduces the **Security Engineer role** and explores the day-to-day responsibilities involved in protecting an organization's digital assets. It explains why organizations need security engineers, what qualifications are expected, and how they contribute to maintaining and improving a company’s security posture.
 
-> ⚠️ Recommended: Complete the *Pre Security Path* before starting this room.
-
 ---
 
-## 🎯 Learning Objectives
-- Understand why organizations need security engineers  
-- Identify qualifications required for the role  
-- Learn the daily responsibilities of a security engineer  
-- Explore additional responsibilities depending on the organization  
-
----
-
-# 🏢 Why Do Organizations Need Security?
+#  Why Do Organizations Need Security?
 
 As organizations rely more on digital systems, they face increasing risks such as:
 
@@ -28,7 +18,7 @@ Just as companies protect physical assets, they must also secure digital assets 
 
 ---
 
-# 👨‍💻 The Role of a Security Engineer
+#  The Role of a Security Engineer
 
 A Security Engineer is responsible for:
 
@@ -43,7 +33,7 @@ Security Engineers break large security problems into manageable parts and solve
 
 ---
 
-# 📚 Qualifications & Skills
+#  Qualifications & Skills
 
 Typical entry expectations include:
 
@@ -58,9 +48,9 @@ The role is broad and varies between organizations.
 
 ---
 
-# 🔑 Core Responsibilities
+#  Core Responsibilities
 
-## 📦 Asset Management
+##  Asset Management
 - Maintain inventory of all digital assets  
 - Track IP addresses, applications, permissions, owners  
 - Ensure assets are documented and updated  
@@ -69,7 +59,7 @@ The role is broad and varies between organizations.
 
 ---
 
-## 📜 Security Policies
+##  Security Policies
 - Develop policies based on security principles  
 - Enforce policy implementation  
 - Evaluate and manage policy exceptions  
@@ -77,7 +67,7 @@ The role is broad and varies between organizations.
 
 ---
 
-## 🏗️ Secure by Design
+##  Secure by Design
 - Implement secure network architecture  
 - Harden Windows, Linux, and Active Directory systems  
 - Support Secure Software Development Lifecycle (SSDLC)  
@@ -86,7 +76,7 @@ Security should be built in from the beginning — not added later.
 
 ---
 
-## 🔍 Security Assessment & Assurance
+##  Security Assessment & Assurance
 - Conduct audits and security assessments  
 - Support red and purple team exercises  
 - Prioritize and remediate findings  
@@ -96,16 +86,16 @@ Security is an ongoing process, not a one-time setup.
 
 ---
 
-# 🔄 Continuous Responsibilities
+#  Continuous Responsibilities
 
-## 🧠 Security Awareness
+##  Security Awareness
 - Conduct training sessions  
 - Reduce social engineering risks  
 - Promote secure development and operational practices  
 
 ---
 
-## ⚖️ Risk Management
+##  Risk Management
 - Identify risks  
 - Evaluate likelihood and impact  
 - Recommend mitigation strategies  
@@ -115,28 +105,28 @@ Security is an ongoing process, not a one-time setup.
 
 ---
 
-## 🔁 Change Management
+##  Change Management
 - Evaluate security impact of system updates  
 - Ensure new integrations meet security standards  
 - Conduct risk assessments before deployment  
 
 ---
 
-## 🩹 Vulnerability Management
+##  Vulnerability Management
 - Monitor new vulnerabilities  
 - Patch systems based on severity  
 - Reduce exposure to evolving threats  
 
 ---
 
-## 📋 Compliance & Audits
+##  Compliance & Audits
 - Maintain regulatory compliance (e.g., PCI-DSS, HIPAA, ISO, NIST)  
 - Work with auditors  
 - Maintain security certifications  
 
 ---
 
-# 🛠️ Additional Responsibilities
+#  Additional Responsibilities
 
 Depending on the organization, a Security Engineer may also:
 
@@ -148,7 +138,7 @@ Depending on the organization, a Security Engineer may also:
 
 ---
 
-# ⚖️ Business vs Security Balance
+#  Business vs Security Balance
 
 Security decisions must consider:
 
@@ -161,7 +151,7 @@ The most secure system is one that is powered off — but that achieves no busin
 
 ---
 
-# 🏁 Key Takeaways
+#  Key Takeaways
 
 A Security Engineer:
 
@@ -174,8 +164,8 @@ A Security Engineer:
 
 ---
 
-## 💡 Final Reflection
+##  Final Reflection
 
 Security engineering is not a one-time task but a continuous journey of improvement, adaptation, and risk management.
 
-➡️ Next Step: Continue to the **Security Principles** room to understand the foundational concepts behind effective security engineering.
+ Next Step: Continue to the **Security Principles** room to understand the foundational concepts behind effective security engineering.
