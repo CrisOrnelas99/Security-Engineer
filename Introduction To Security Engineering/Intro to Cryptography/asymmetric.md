@@ -1,4 +1,4 @@
-# 🔐 What I Learned — Asymmetric Encryption & RSA
+#  What I Learned — Asymmetric Encryption & RSA
 
 - Symmetric encryption requires a **secure channel** to exchange keys (confidentiality + integrity).
 - Asymmetric encryption only requires a **reliable channel** (integrity focused, not confidentiality).
