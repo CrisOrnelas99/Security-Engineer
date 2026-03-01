@@ -1,17 +1,17 @@
-# 🛡️ TryHackMe Room – Security Principles & Models
+# What I learned – Security Principles & Models
 
-## 📌 Overview
+##  Overview
 This room explores the foundational concepts of security, including the **CIA Triad**, extended security principles, major security models, defense-in-depth, ISO/IEC design principles, trust models, and risk terminology.
 
 Understanding these principles is critical for designing secure systems and making informed security decisions.
 
 ---
 
-# 🔺 The CIA Triad
+#  The CIA Triad
 
 Security is commonly evaluated using three core principles:
 
-## 1️⃣ Confidentiality
+##  Confidentiality
 Ensures that only authorized individuals can access sensitive data.
 
 - Example (Online Shopping): Credit card details should only be visible to the payment processor.
@@ -19,7 +19,7 @@ Ensures that only authorized individuals can access sensitive data.
 
 ---
 
-## 2️⃣ Integrity
+##  Integrity
 Ensures data cannot be altered without detection.
 
 - Example (Online Shopping): Shipping address should not be modified by an attacker.
@@ -27,17 +27,17 @@ Ensures data cannot be altered without detection.
 
 ---
 
-## 3️⃣ Availability
+##  Availability
 Ensures systems and services are accessible when needed.
 
 - Example (Online Shopping): Website must be accessible to place orders.
 - Example (Healthcare): Doctors must access patient records during visits.
 
-> ⚖️ Security requires balancing all three. Over-prioritizing one can weaken the others.
+>  Security requires balancing all three. Over-prioritizing one can weaken the others.
 
 ---
 
-# 🔻 The DAD Triad (Opposite of CIA)
+#  The DAD Triad (Opposite of CIA)
 
 - **Disclosure** → Opposite of Confidentiality  
 - **Alteration** → Opposite of Integrity  
@@ -47,12 +47,12 @@ Attacks typically target one of these three areas.
 
 ---
 
-# ➕ Beyond CIA
+#  Beyond CIA
 
-## 🔐 Authenticity
+##  Authenticity
 Ensures data truly comes from the claimed source.
 
-## 🧾 Nonrepudiation
+##  Nonrepudiation
 Ensures a sender cannot deny their action (e.g., placing an order).
 
 Both are essential for:
@@ -63,7 +63,7 @@ Both are essential for:
 
 ---
 
-# 🧩 Parkerian Hexad
+#  Parkerian Hexad
 
 Proposed by Donn Parker (1998), expanding CIA into six elements:
 
@@ -74,17 +74,17 @@ Proposed by Donn Parker (1998), expanding CIA into six elements:
 5. Utility  
 6. Possession  
 
-### 🛠 Utility
+###  Utility
 Data must be usable. Encrypted data without a key has no utility.
 
-### 📦 Possession
+###  Possession
 Protects against unauthorized control or theft (e.g., ransomware or stolen backups).
 
 ---
 
-# 🏗 Security Models
+#  Security Models
 
-## 🔐 Bell-LaPadula Model (Confidentiality)
+##  Bell-LaPadula Model (Confidentiality)
 
 - **No Read Up** (Simple Security Property)
 - **No Write Down** (Star Property)
@@ -96,7 +96,7 @@ Focus: Prevent disclosure of sensitive data.
 
 ---
 
-## 🧱 Biba Model (Integrity)
+##  Biba Model (Integrity)
 
 - **No Read Down**
 - **No Write Up**
@@ -107,7 +107,7 @@ Focus: Prevent data corruption.
 
 ---
 
-## ⚙️ Clark-Wilson Model (Integrity via Controlled Access)
+##  Clark-Wilson Model (Integrity via Controlled Access)
 
 Key Concepts:
 - **CDI (Constrained Data Item)** – Protected data
@@ -119,7 +119,7 @@ Focus: Integrity through well-defined processes.
 
 ---
 
-# 🛡 Defence-in-Depth (Multi-Level Security)
+#  Defence-in-Depth (Multi-Level Security)
 
 Security should exist in multiple layers.
 
@@ -133,7 +133,7 @@ Even if one control fails, others remain in place.
 
 ---
 
-# 🌍 ISO/IEC 19249 Principles
+#  ISO/IEC 19249 Principles
 
 ## Architectural Principles
 
@@ -155,7 +155,7 @@ Even if one control fails, others remain in place.
 
 ---
 
-# 🤝 Trust Models
+#  Trust Models
 
 ## Trust but Verify
 - Trust entities but monitor and log activity.
@@ -169,7 +169,7 @@ Even if one control fails, others remain in place.
 
 ---
 
-# ⚠️ Vulnerability, Threat, and Risk
+#  Vulnerability, Threat, and Risk
 
 ## Vulnerability
 A weakness in a system.
@@ -184,7 +184,7 @@ Likelihood × Impact of a threat exploiting a vulnerability.
 
 ---
 
-# 🏁 Key Takeaways
+#  Key Takeaways
 
 - Security revolves around **Confidentiality, Integrity, and Availability**.
 - Additional elements include **Authenticity, Nonrepudiation, Utility, and Possession**.
@@ -194,7 +194,7 @@ Likelihood × Impact of a threat exploiting a vulnerability.
 
 ---
 
-## 💡 Reflection
+##  Reflection
 
 Effective security is not about eliminating all threats —  
 it is about reducing risk to acceptable levels while maintaining business functionality.
