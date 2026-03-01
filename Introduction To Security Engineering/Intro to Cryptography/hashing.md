@@ -1,4 +1,4 @@
-# 🔐 What I Learned — Hashing & HMAC
+#  What I Learned — Hashing & HMAC
 
 - A **cryptographic hash function** takes input of any size and outputs a **fixed-size** value called a **message digest / checksum**.
 - Example: **SHA-256** outputs **256 bits (32 bytes)**.
