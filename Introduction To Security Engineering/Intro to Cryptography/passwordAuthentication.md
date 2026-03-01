@@ -1,4 +1,4 @@
-# 🔐 What I Learned — Password Storage Security
+#  What I Learned — Password Storage Security
 
 - Cryptography protects passwords in **transit** (e.g., HTTPS using SSL/TLS).
 - We also need to protect passwords **at rest** (stored in databases).
