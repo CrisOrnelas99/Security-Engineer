@@ -1,36 +1,36 @@
-# 🔐 What I Learned — Symmetric Encryption (Key Notes)
+# What I Learned — Symmetric Encryption (Key Notes)
 
-## 🧩 Basic Terms
+##  Basic Terms
 - **Cipher/Algorithm:** Rules that do encryption/decryption.
 - **Key:** Secret value the cipher uses to lock/unlock data.
 - **Plaintext:** Original readable message.
 - **Ciphertext:** Encrypted unreadable message.
 
-## 🔑 Symmetric Encryption
+##  Symmetric Encryption
 - Same **key** is used to **encrypt and decrypt**.
 - Both people must **share the secret key first**.
 - If you don’t have the key, you **can’t recover the plaintext**.
 
-## 🏛️ DES vs AES
+##  DES vs AES
 - **DES (1977):** 56-bit key → **too small**, brute-forced → **not secure**.
 - **AES (2001):** 128/192/256-bit keys → **secure and widely used**.
 - AES is complex (multiple rounds of transformations), which makes it harder to break.
 
-## 🧱 Block vs Stream Ciphers
+##  Block vs Stream Ciphers
 - **Block cipher:** Encrypts data in fixed-size blocks (commonly **128 bits / 16 bytes**).
 - **Stream cipher:** Encrypts data **byte-by-byte**.
 
-## 🛡️ What Symmetric Encryption Gives You (If key stays secret)
+##  What Symmetric Encryption Gives You (If key stays secret)
 - **Confidentiality:** attackers can’t read the message.
 - **Integrity:** tampering breaks decryption / produces garbage.
 - **Authenticity:** decrypting successfully suggests the sender knew the secret key.
 
-## 📈 Main Problem: Key Scaling
+##  Main Problem: Key Scaling
 - More users = **many more shared keys**.
 - 100 users → about **4950 keys** needed.
 - Hard to manage, replace, and share keys securely → leads into **asymmetric encryption**.
 
-## 🧰 Practical Tools I Used
+##  Practical Tools I Used
 ### GPG
 - Encrypt: `gpg --symmetric --cipher-algo CIPHER message.txt`
 - Decrypt: `gpg --output original_message.txt --decrypt message.gpg`
