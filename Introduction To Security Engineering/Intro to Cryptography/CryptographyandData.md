@@ -1,4 +1,4 @@
-# 🔐 What I Learned — HTTPS, TLS & Password Verification
+# What I Learned — HTTPS, TLS & Password Verification
 
 - When connecting to a website over **HTTPS**, the client first requests the server’s **SSL/TLS certificate**.
 - The server sends its certificate to the client.
