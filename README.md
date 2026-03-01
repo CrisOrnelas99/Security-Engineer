@@ -37,5 +37,5 @@ This path builds a well-rounded understanding of security engineering from both 
 - Containment, eradication, and recovery processes  
 ---
 
-## 💡 Why This Path Matters
+##  Why This Path Matters
 Security Engineers play a critical role in protecting organizational assets. Understanding security from multiple perspectives enables proactive defense, stronger architecture design, and improved incident readiness.
