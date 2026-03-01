@@ -1,4 +1,4 @@
-# 🔐 What I Learned — Diffie-Hellman Key Exchange (Key Notes)
+# What I Learned — Diffie-Hellman Key Exchange (Key Notes)
 
 - Diffie-Hellman allows two parties to agree on a **shared secret key over an insecure channel**.
 - The channel can be monitored (eavesdroppers can see messages).
