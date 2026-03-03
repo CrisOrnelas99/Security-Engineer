@@ -1,0 +1,154 @@
+# TryHackMe – DREAD Framework | Notes & Key Concepts Learned
+
+## Overview
+
+The DREAD framework is a risk assessment model developed by Microsoft to evaluate and prioritise security threats and vulnerabilities. It is used to rate risks based on five categories and produce an overall risk score.
+
+DREAD stands for:
+
+- **Damage**
+- **Reproducibility**
+- **Exploitability**
+- **Affected Users**
+- **Discoverability**
+
+It is primarily used for qualitative risk analysis.
+
+---
+
+## DREAD Categories
+
+### Damage
+Measures the potential impact if the vulnerability is successfully exploited.
+
+Question:  
+How bad would the attack be?
+
+Examples of impact:
+- Data breach
+- System downtime
+- Financial loss
+- Reputational damage
+
+---
+
+### Reproducibility
+Measures how easily the attack can be repeated.
+
+Question:  
+How easy is it to reproduce the attack?
+
+Higher reproducibility increases risk because attackers can repeatedly exploit the weakness.
+
+---
+
+### Exploitability
+Measures the effort required to exploit the vulnerability.
+
+Question:  
+How much work is required to launch the attack?
+
+Factors include:
+- Required technical skill
+- Availability of public exploits
+- Time and resources needed
+
+---
+
+### Affected Users
+Measures the number of users impacted if the vulnerability is exploited.
+
+Question:  
+How many users will be affected?
+
+Greater impact on users increases the overall severity.
+
+---
+
+### Discoverability
+Measures how easy it is for an attacker to find the vulnerability.
+
+Question:  
+How easy is it to discover the vulnerability?
+
+Public exposure and automated scanning tools increase discoverability.
+
+---
+
+## Scoring Method
+
+Each category is typically rated on a scale from 1 to 10.  
+The overall DREAD score is calculated by averaging the five values.
+
+Example formula:
+
+Overall Risk Score = (D + R + E + A + D) / 5
+
+Higher average score = Higher priority for remediation.
+
+---
+
+## Guidelines for Effective Use
+
+Because DREAD is opinion-based, consistency is important. Recommended practices include:
+
+- Establishing standardised scoring guidelines.
+- Providing examples for each scoring range.
+- Encouraging collaboration across teams.
+- Combining DREAD with other risk assessment methodologies.
+- Regularly reviewing and updating scoring criteria.
+
+These practices reduce subjectivity and improve reliability.
+
+---
+
+## Example Vulnerability Scoring
+
+### Unauthenticated Remote Code Execution
+Score: 8
+
+- Damage: 10  
+- Reproducibility: 7.5  
+- Exploitability: 10  
+- Affected Users: 10  
+- Discoverability: 2.5  
+
+High damage and exploitability significantly increase priority.
+
+---
+
+### Insecure Direct Object References (IDOR)
+Score: 6.5
+
+- Damage: 2.5  
+- Reproducibility: 7.5  
+- Exploitability: 7.5  
+- Affected Users: 10  
+- Discoverability: 5  
+
+Moderate overall risk due to impact on many users.
+
+---
+
+### Server Misconfiguration (Information Disclosure)
+Score: 5
+
+- Damage: 0  
+- Reproducibility: 10  
+- Exploitability: 10  
+- Affected Users: 0  
+- Discoverability: 5  
+
+Although easy to exploit, limited impact reduces overall priority.
+
+---
+
+## Key Concepts Reinforced
+
+- DREAD is a structured qualitative risk scoring method.
+- Risk prioritisation is based on impact, ease of exploitation, and exposure.
+- Standardised scoring improves accuracy.
+- High-scoring vulnerabilities should be prioritised for remediation.
+- DREAD supports decision-making in threat modelling and vulnerability management.
+
+The framework helps security teams systematically rank threats and allocate resources based on calculated risk levels.
