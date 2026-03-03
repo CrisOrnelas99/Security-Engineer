@@ -95,10 +95,6 @@ Attack paths represent chains of interconnected vulnerabilities that an attacker
 
 Understanding attack paths helps identify and eliminate weak links.
 
----
-
-# Threat Modelling Frameworks | Use Case Applications & Comparison Notes
-
 ## MITRE ATT&CK
 
 MITRE ATT&CK focuses on real-world adversary behaviour by mapping attacker tactics and techniques.  
