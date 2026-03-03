@@ -97,6 +97,92 @@ Understanding attack paths helps identify and eliminate weak links.
 
 ---
 
+# Threat Modelling Frameworks | Use Case Applications & Comparison Notes
+
+## MITRE ATT&CK
+
+MITRE ATT&CK focuses on real-world adversary behaviour by mapping attacker tactics and techniques.  
+Unlike DREAD and STRIDE, which concentrate on risk scoring and categorisation, ATT&CK provides a practical and operational perspective based on documented attack patterns.
+
+### Use Cases:
+- Assess effectiveness of existing security controls against known attack techniques.
+- Map threat actors to organisational infrastructure.
+- Identify potential attack paths.
+- Improve detection engineering and incident response readiness.
+- Strengthen defensive strategies using real adversary data.
+
+Primary Strength: Real-world, adversary-focused analysis.
+
+---
+
+## DREAD
+
+DREAD provides a numerical, qualitative scoring model for evaluating and prioritising risks.  
+It offers a structured way to calculate and compare threat severity.
+
+### Use Cases:
+- Assess potential risk levels of identified vulnerabilities.
+- Prioritise remediation efforts using calculated risk scores.
+- Support decision-making with measurable criteria.
+- Compare multiple vulnerabilities objectively.
+
+Primary Strength: Risk prioritisation through structured scoring.
+
+---
+
+## STRIDE
+
+STRIDE is a structured threat categorisation framework designed primarily for software systems and application design.  
+It systematically reviews threats across six defined categories aligned with core security principles.
+
+### Use Cases:
+- Analyse and categorise threats in system components.
+- Identify vulnerabilities during system design.
+- Guide secure architecture development.
+- Map threats to authentication, integrity, confidentiality, availability, and authorisation concerns.
+
+Primary Strength: Systematic threat identification during system design.
+
+---
+
+## PASTA
+
+PASTA is a risk-centric and business-aligned threat modelling framework.  
+It integrates technical threat analysis with organisational objectives and compliance requirements.
+
+### Use Cases:
+- Conduct comprehensive, risk-driven threat modelling.
+- Align security initiatives with business goals.
+- Simulate realistic attack scenarios.
+- Prioritise threats based on business impact and risk tolerance.
+- Develop adaptable methodologies tailored to organisational needs.
+
+Primary Strength: Holistic, business-aligned threat modelling.
+
+---
+
+# Shared Benefits Across All Frameworks
+
+All four frameworks contribute to organisational security by:
+
+- Enhancing threat awareness.
+- Identifying vulnerabilities systematically.
+- Prioritising mitigation efforts.
+- Improving security control implementation.
+- Supporting continuous improvement.
+- Adapting to evolving threat landscapes.
+
+---
+
+# Overall Comparison Summary
+
+- **MITRE ATT&CK** → Adversary-focused and operational.
+- **DREAD** → Risk scoring and prioritisation.
+- **STRIDE** → Structured threat categorisation for system design.
+- **PASTA** → Business-aligned, risk-centric modelling.
+
+Each framework has distinct strengths and can be used individually or combined to strengthen an organisation’s threat modelling and risk management strategy.
+
 ## Key Concepts Reinforced
 
 - Threat modelling is proactive risk management.
