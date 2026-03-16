@@ -1,4 +1,4 @@
-##Secure Segmentation Notes 🔐
+## Secure Segmentation Notes 🔐
 # Why Subnetting Is Not Enough
 
 Subnets separate networks at Layer 3 using IP addresses.
