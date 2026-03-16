@@ -1,4 +1,4 @@
-# Cheat Sheet: Layer 2 Security (Snooping & Inspection)
+# Layer 2 Security (Snooping & Inspection)
 
 ## 1. DHCP Snooping
 DHCP Snooping is a Layer 2 security feature that acts as a barrier between untrusted hosts and trusted DHCP servers to prevent **Rogue DHCP Server** attacks.
