@@ -1,0 +1,70 @@
+🛡️ Reducing Attack Surface
+📉 Attack Surface
+
+Every installed package, service, and protocol increases the number of possible vulnerabilities.
+
+More software = more chances for attackers to find and exploit weaknesses.
+
+Goal: minimise unnecessary components on the system.
+
+🚫 Disable Unnecessary Services
+
+Remove or disable unused software and services.
+
+Unneeded services create avoidable security risks.
+
+Best practice: install only what is required for the system’s purpose.
+
+🔒 Block Unneeded Network Ports
+
+Firewall rules should match the actual services in use.
+
+If a service is not needed, its related ports should be blocked.
+
+Example:
+
+No web server → block ports 80 and 443
+
+This helps stop attackers from accessing services even if they manage to start them.
+
+🕰️ Avoid Legacy Protocols
+
+Old protocols often lack encryption and modern security protections.
+
+Do not use insecure legacy protocols such as:
+
+Telnet
+
+TFTP
+
+Use secure replacements instead:
+
+SSH instead of Telnet
+
+SFTP instead of TFTP
+
+🧾 Remove Identification Strings
+
+Many servers reveal:
+
+Software name
+
+Version number
+
+Operating system details
+
+This information helps attackers identify known vulnerabilities.
+
+Reduce information disclosure by hiding or limiting banner/version strings.
+
+✅ Key Security Points
+
+Keep the system minimal.
+
+Remove unused packages and services.
+
+Block unused ports with the firewall.
+
+Replace legacy protocols with secure alternatives.
+
+Hide service identification details to reduce reconnaissance value.
